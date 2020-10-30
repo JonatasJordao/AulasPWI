@@ -1,14 +1,80 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            RECEITAS
-        </title>
-        <meta charset="utf8"/>
-    </head>
+<meta charset="utf8"/>
+<meta name="viewport" content="width-device-widht, initial-scale=1.0">
+<title> RECEITAS</title>
+ <style>
+      * {
+        /* HESET DA PAGINA */
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background-color: #e90d0d;
+        width: 100%;
+        height: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+    header {
+        position: sticky;
+        top: 0;
+    }
+    a {
+        text-decoration: none;
+    }
+    .topo {
+        background-color: rgb(252, 246, 246);
+        height: 80px;
+        text-align: center;
+    }
+    .logo {
+        width: 150 px;
+        float: left;
+        padding: 5px;
+    }
+    #img-logo{
+        width: 15%;
+    }
+    .titulo {
+        display: inline-block;
+        margin: 25px auto;
+    }
+    #titulo-site {
+        color: rgb(139, 19, 19);
+    }
+    .barra-topo {
+        height: 20px;
+        background-color: rgb(14, 13, 13);
+    }
+    .card {
+        background-color: #fff;
+        padding: 25px;
+        margin-top: 15px;
+        margin-left: 100px;
+        margin-right: 100px;
+ 
+        border-radius: 10px;
+    }
+    .text-center {
+        text-align: center;
+    }
+</style>
+<head>  
     <body>
-        <h1><a href="https://www.tudogostoso.com.br/">RECEITAS</a> </h1>
-    <p>escolha uma opçao</p>
+        <header>
+            <div class="topo">
+                <div class="logo">
+                    <img id="img-logo" src="img/logo.png" alt="logo da pagina">
+                </div>
+                <h1 class="titulo">
+                    <a id="titulo-site" href="https://www.tudogostoso.com.br/">RECEITAS</a> 
+                </h1>
+                </div>
+            <div class="barra-topo"></div>
+        </header>
+        <div class="card">
+        <p class="text-center">escolha uma opçao</p>
     <ul>
         <li><a href="receitas_salgadas/index.html">receitas salgadas</a></li>
         <a href="receitas_doces/index.html">
@@ -18,8 +84,12 @@
         
         </a>
     </ul>
-    <img src="img/animacao.gif"/>
+        </div>
+        <div class="card text-center">
+        <img src="img/animacao.gif"alt="imagem de um bolo sendo cortado"/>
+        </div>
 
         
     </body>
+</head>
 </html>

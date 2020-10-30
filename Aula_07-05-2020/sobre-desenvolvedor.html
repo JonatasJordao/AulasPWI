@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8"/>
+    <meta name="viewport" content="width-device-widht, initial-scale=1.0">
+    <title>DESENVOLVEDOR</title>
+
+    <style>
+         * {
+        /* HESET DA PAGINA */
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background-color: #e90d0d;
+        width: 100%;
+        height: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+    header {
+        position: sticky;
+        top: 0;
+    }
+    a {
+        text-decoration: none;
+    }
+    .topo {
+        background-color: rgb(252, 246, 246);
+        height: 80px;
+        text-align: center;
+    }
+    .logo {
+        width: 150 px;
+        float: left;
+        padding: 5px;
+    }
+    #img-logo{
+        width: 15%;
+    }
+    .titulo {
+        display: inline-block;
+        margin: 25px auto;
+    }
+    #titulo-site {
+        
+        color: rgb(139, 19, 19);
+    }
+    .barra-topo {
+        height: 20px;
+        background-color: rgb(14, 13, 13);
+    }
+    .card {
+        background-color: #fff;
+        padding: 25px;
+        margin-top: 15px;
+        /*
+        margin-left: 100px;
+        margin-right: 100px;
+        */
+ 
+        border-radius: 10px;
+    }
+    .text-center {
+        text-align: center;
+    } 
+    .container{
+        max-width: 960px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    
+    .titulo-pagina{
+        color:black;
+    }
+    .barra{
+        background-color: black;
+        height: 100px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        width: 100%;
+
+        position: static;
+        top: 0;
+    }
+    .foto{
+        width: 200px;
+        position: absolute;
+        padding: 20px;
+    }
+    .foto img{
+        width: 100%;
+        border-radius: 60%;
+    }
+    .nome-desenvolvedor{
+        color: white;
+        font-size: 18px;
+
+    }
+    .nome-desenvolvedor{
+        padding: 30px;
+        margin-left: 200px;
+    }
+    .dados-desenvolvedor{
+        margin-top: 100px;
+        padding: 25px;
+        border-left: 10px solid;
+        color:black;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .dados-tabela{
+        padding: 10px;
+        padding-bottom: 15px;
+    }
+    .dados-tabela a{
+        font-size: 20px;
+        color: black;
+    }
+    .dados-cidade{
+        color: black;
+        font-size: 20px;
+        padding: 10px;
+        padding-bottom: 15px;
+       
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="topo">
+            <div class="container">
+            <div class="logo">
+                <img id="img-logo" src="img/logo.png" alt="logo da pagina">
+            </div>
+            <h1 class="titulo">
+                <a id="titulo-site" href="https://www.tudogostoso.com.br/">RECEITAS</a> 
+            </h1>
+            </div> 
+        </div> <!-- fim do container -->
+        <div class="barra-topo"></div>
+    </header>
+
+    <div class="container">
+    <div class="card text-center">
+        <h1 class="titulo-pagina">SOBRE O DESENVOLVEDOR</h1>
+
+    </div>
+
+    <div class="card">
+        <div class="barra">
+            <div class="foto">
+                <img src="img/foto.jpg" alt="foto do desenvolvedor">
+
+            </div>
+            <div class="nome-desenvolvedor">
+                <h1>Jonatas Henrique Jordão de Oliveira</h1>
+            </div>
+
+        </div><!-- fim da barra -->
+
+        <div class="dados-desenvolvedor">
+            <table>
+                <tr>
+                    <td><img src="img/at.png" alt="logo email"></td>
+                    <td class="dados-tabela">
+                        <a href="mailto:jonatas.oliveira59@etec.sp.gov.br">jonatas.oliveira59@etec.sp.gov.br</a
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><img src="img/github.png" alt="logo github"></td>
+                    <td class="dados-tabela">
+                        <a href="https://github.com/JonatasJordao" target="_blank">https://github.com/JonatasJordao</a
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><img src="img/desktop-mac.png" alt=""></td>
+                    <td class="dados-cidade">Tecnico em desenvolvimento de Sistema Integrado ao Ensino Medio</td>
+                </tr>
+                <tr>
+                    <td><img src="img/google-maps.png" alt="imagem de um mapa"></td>
+                    <td class="dados-cidade">Lençois Paulista</td>
+                </tr>
+            </table> 
+
+        </div>
+
+    </div>
+    </div><!-- fim do container -->
+
+
+</body>
+</html>
