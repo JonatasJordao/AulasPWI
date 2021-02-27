@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Bolos do Bilu</title>
+</head>
+
+<body>
+
+    <!--navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg justify-content-center navbar-dark bg-primary">
+        <a class="navbar-brand" href="#"><strong>BOLOS :)</strong></a>
+    </nav>
+    <!--fim navbar-->
+
+    <!--formulário-->
+    <form id="topo" class="centro">
+        <input type="text" id="nome" placeholder="Pesquisar Bolo" list="bolos">
+        <button type="button" id="pesquisar" class="btn btn-primary"><i class="fas fa-search"></i></button>
+        <datalist id="bolos">
+            <option value="Limão"></option>
+            <option value="Cenoura"></option>
+        </datalist>
+        <br />
+    </form>
+    <!--fim formulário-->
+
+    <br />
+
+    <div class="container centro">
+        <div id="limao">
+            <div class="alert alert-success container" role="alert">
+                <strong>Bolo de Limão</strong>
+            </div>
+            <div>
+                <img src="img/bolo-limao.png" alt="Imagem Bolo de Limão" class="card-img-top">
+                <div class="esquerda">
+                    <br />
+                    <button type="button" id="mostrarLimao" class="btn btn-success">Mostrar Receita</button>
+                    <button type="button" id="esconderLimao" class="btn btn-success">Esconder Receita</button>
+                    <div id="bolo-limao">
+                        <br />
+                        <h3>Ingredientes</h3>
+                        <ul>
+                            <li>2 xícara de farinha de trigo</li>
+                            <li>1 pitada de sal</li>
+                            <li>7 gemas</li>
+                            <li>2 xícara de açúcar</li>
+                            <li>½ xícara de óleo</li>
+                            <li>1 xícara de água fervente</li>
+                            <li>1 colher de chá de essência de baunilha</li>
+                            <li>Raspas de 1 limão</li>
+                            <li>7 claras</li>
+                            <li>3 colheres de chá de fermento químico</li>
+                            <li>700g de creme de leite fresco</li>
+                            <li>395g (1 lata) de leite condensado</li>
+                            <li>Suco de 2 limões</li>
+                            <li>1 limão cortado em rodelas para decorar</li>
+                            <li>Folhas de hortelã para decorar</li>
+                        </ul>
+
+                        <br />
+                        <h3>Modo de Preparo</h3>
+                        <ol>
+                            <li>Misturar a farinha de trigo com o sal. Reservar.</li>
+                            <li>Bater as gemas com o açúcar e o óleo.</li>
+                            <li>Adicionar, alternadamente, a água e a farinha de trigo na mistura das gemas.</li>
+                            <li>Quando estiver bem incorporado, adicionar a essência de baunilha e as raspas de limão.</li>
+                            <li>Bater a clara em neve.</li>
+                            <li>Juntar o fermento a mistura e por último as claras em neve, delicadamente.</li>
+                            <li>Dispor em duas formas redondas untadas e enfarinhadas.</li>
+                            <li>Levar ao forno preaquecido a 180 graus, durante 40 minutos.</li>
+                            <li>Em uma tigela, dispor o creme de leite fresco, o leite condensado e o suco de limão. Bater com uma batedeira até obter ponto de chantilly.</li>
+                            <li>Rechear o bolo com esse chantilly. Passar o excesso de recheio em volta e em cima do bolo.</li>
+                            <li>Decorar com rodelas de limão e hortelã</li>
+
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="cenoura">
+            <div class="alert alert-warning container" role="alert">
+                <strong>Bolo de Cenoura</strong>
+            </div>
+            <div>
+                <img src="img/bolo-de-cenoura.jpg" alt="Imagem Bolo de Cenoura" class="card-img-top">
+                <div class="esquerda">
+                    <br />
+                    <button type="button" id="mostrarCenoura" class="btn btn-warning">Mostrar Receita</button>
+                    <button type="button" id="esconderCenoura" class="btn btn-warning">Esconder Receita</button>
+                    <div id="bolo-cenoura">
+                        <br />
+                        <h3>Ingredientes</h3>
+                        <ul>
+                            <li>2 cenouras médias, cortadas em cubos 300 g</li>
+                            <li>1/2 xícara de chá de óleo 125 ml</li>
+                            <li>3 ovos</li>
+                            <li>1 1/2 xícara de chá de farinha de trigo 210 g</li>
+                            <li>1/2 xícara de chá de Amido de Milho Maizena Vita + 60 g</li>
+                            <li>2 colheres de chá de fermento em pó 8 g</li>
+                            <li>1 xícara de chá de açúcar 190 g</li>
+                            <li>1/2 xícara de chocolate ao leite derretido</li>
+                            <li>1/2 xícara de creme de leite</li>
+
+                        </ul>
+
+                        <br />
+                        <h3>Modo de Preparo</h3>
+                        <ol>
+                            <li>Pré-aqueça o forno em temperatura média (180°C).</li>
+                            <li>Unte e enfarinhe uma forma de furo central média (20 cm de diâmetro). Reserve.</li>
+                            <li>No copo do liquidificador, coloque a cenoura, o óleo e os ovos, e bata até ficar homogêneo.</li>
+                            <li>Em uma tigela, peneire o amido de milho MAIZENA®, a farinha de trigo, o fermento e o açúcar, junte a mistura de cenoura reservada, e mexa com o auxílio de uma espátula até que vire uma massa uniforme.</li>
+                            <li>Disponha a massa na forma reservada e leve ao forno por 40 minutos, ou até que um palito, depois de espetado na massa, saia limpo. Retire o forno e deixe amornar.</li>
+                            <li>Faça a cobertura: misture o chocolate e o creme de leite, e espalhe por toda a superfície do bolo. Sirva a seguir.</li>
+                        
+
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p id="erro" class="vermelho"><strong>Não existem resultados para a sua pesquisa :(</strong></p>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/9618a9e136.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

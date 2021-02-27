@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.centro{
+    text-align: center;
+    
+}
+
+.vermelho{
+    color: #ff0000;
+}
+
+#topo{
+    margin-top: 75px;
+}
+
+.card-img-top {
+    width: 50%;
+}
+
+.esquerda{
+    text-align: left;
+}
